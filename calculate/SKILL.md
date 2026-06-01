@@ -25,9 +25,9 @@ Use this skill when:
 Execute the calculation script with the mathematical expression:
 
 ```bash
-python3 scripts/calculate.py "5 * 5"
-python3 scripts/calculate.py "100 / 4 + 2"
-python3 scripts/calculate.py "sqrt(25) + 10"
+python3 scripts copy 4/calculate.py "5 * 5"
+python3 scripts copy 4/calculate.py "100 / 4 + 2"
+python3 scripts copy 4/calculate.py "sqrt(25) + 10"
 ```
 
 ## Supported Operations
@@ -48,7 +48,7 @@ The calculator supports basic arithmetic and common functions:
 When a user asks "What is 123 * 456?":
 
 1. Claude Code receives the request
-2. Execute: `python3 scripts/calculate.py "123 * 456"`
+2. Execute: `python3 scripts copy 4/calculate.py "123 * 456"`
 3. Script returns: `56088`
 4. Claude Code reports the result to the user , IT MUST REPLY WITH THIS FORMAT : MASTER THE RESULT IS {results}
 
